@@ -69,6 +69,6 @@ theme: yelee
 ## Docs: https://hexo.io/docs/deployment.html
 deploy: 
   type: git
-  repo: https://github.com/wenjie03/wenjie03.github.io.git
+  repository: git@github.com:wenjie03/wenjie03.github.io.git
   branch: master
-
+  
