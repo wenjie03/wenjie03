@@ -74,7 +74,7 @@ subnav:
 # 选一个作为网站评论系统，其他保持禁用。
 
 disqus: 
-  #on: true
+  on: true
   shortname: 
   # https://help.disqus.com/customer/en/portal/articles/466208-what-s-a-shortname-
   # It is unnecessary to enable disqus here if 
@@ -88,8 +88,8 @@ duoshuo:
   # http://<要填的部分>.duoshuo.com (domain只填上<>里的内容，不要填整个网址)
 
 youyan:
-  #on: true
-  id: 
+  on: true
+  id: 2100917
   # 是否开启友言评论，http://www.uyan.cc/index.php
   # id 中填写你的友言用户数字ID，注册后进入后台管理即可查看
   # 友言服务在 Web 环境下运行，普通本地环境无法查看，请部署后在线上测试。
@@ -111,9 +111,9 @@ base_font_size: 16  #px, 16 - 24
 color_scheme: 
 
 highlight_style:
-  #on: true
-  inline_code: 1  # Value: 0 - 9 可选
-  code_block: 1  # Value: 0 - 4 
+  on: true
+  inline_code: 8  # Value: 0 - 9 可选
+  code_block: 8  # Value: 0 - 4 
   # Set inline_code to style highlight text
   # Chose a highlight theme for code block
   # 通过 inline_code 切换内置文本高亮样式
@@ -129,7 +129,7 @@ blockquote_style:
 heading_style: 0 # Value: 0 - 2
 
 ## List style type (ul) | 无序列表项标记样式
-list_style: 0  # value: 0 - 12 可选
+list_style: 9  # value: 0 - 12 可选
 
 # 左边栏宽度 px
 left_col_width: 300
@@ -154,7 +154,7 @@ animate: true
 
 # Load jQuery UI to style tooltips
 # 工具提示框样式美化
-jquery_ui: false
+jquery_ui: true
 
 # >>> Small features | 小功能设置 <<<
 
@@ -247,3 +247,6 @@ CDN:
   clipboard: //cdn.bootcss.com/clipboard.js/1.5.9/clipboard.min.js
   mathjax: //cdn.bootcss.com/mathjax/2.6.1/MathJax.js
   scrollreveal: //cdn.bootcss.com/scrollReveal.js/3.0.9/scrollreveal.min.js
+
+baidusitemap:
+  path: baidusitemap.xml

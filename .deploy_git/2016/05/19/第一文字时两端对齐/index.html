@@ -5,38 +5,17 @@
   
   <title>第一文字时两端对齐 | 晴风无眠</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="最近再做一行文字时，两端对齐，遇到了一些问题，总结一下实现方法！
-方法1、text-align-last
-1、 如果是中文，必须加空格，不然在有些浏览器上不会两端对齐（如魅族手机）2、css3新属性，但是兼容性很差！safai不支持
-
-
-用法：一个块内的最后一行（包括仅有一行文字）
-
-auto：无特殊对齐方式。left：内容左对齐。center：内容居中对齐。right：内容右对齐。justify">
+  <meta name="description" content="最近再做一行文字时，两端对齐，遇到了一些问题，总结一下实现方法！">
 <meta property="og:type" content="article">
 <meta property="og:title" content="第一文字时两端对齐">
 <meta property="og:url" content="http://yoursite.com/2016/05/19/第一文字时两端对齐/index.html">
 <meta property="og:site_name" content="晴风无眠">
-<meta property="og:description" content="最近再做一行文字时，两端对齐，遇到了一些问题，总结一下实现方法！
-方法1、text-align-last
-1、 如果是中文，必须加空格，不然在有些浏览器上不会两端对齐（如魅族手机）2、css3新属性，但是兼容性很差！safai不支持
-
-
-用法：一个块内的最后一行（包括仅有一行文字）
-
-auto：无特殊对齐方式。left：内容左对齐。center：内容居中对齐。right：内容右对齐。justify">
+<meta property="og:description" content="最近再做一行文字时，两端对齐，遇到了一些问题，总结一下实现方法！">
 <meta property="og:image" content="http://upload-images.jianshu.io/upload_images/2097799-ccf604a3d41cc0e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
-<meta property="og:updated_time" content="2016-05-20T15:13:11.113Z">
+<meta property="og:updated_time" content="2016-05-21T08:56:33.355Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="第一文字时两端对齐">
-<meta name="twitter:description" content="最近再做一行文字时，两端对齐，遇到了一些问题，总结一下实现方法！
-方法1、text-align-last
-1、 如果是中文，必须加空格，不然在有些浏览器上不会两端对齐（如魅族手机）2、css3新属性，但是兼容性很差！safai不支持
-
-
-用法：一个块内的最后一行（包括仅有一行文字）
-
-auto：无特殊对齐方式。left：内容左对齐。center：内容居中对齐。right：内容右对齐。justify">
+<meta name="twitter:description" content="最近再做一行文字时，两端对齐，遇到了一些问题，总结一下实现方法！">
 <meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/2097799-ccf604a3d41cc0e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
   
     <link rel="alternative" href="/atom.xml" title="晴风无眠" type="application/atom+xml">
@@ -47,6 +26,8 @@ auto：无特殊对齐方式。left：内容左对齐。center：内容居中对
   
       <link href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css" rel="stylesheet">
   
+  
+      <link href="//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css" rel="stylesheet">
   
   
       <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
@@ -191,7 +172,7 @@ auto：无特殊对齐方式。left：内容左对齐。center：内容居中对
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/css/">css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/">javascript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/">web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/感悟/">感悟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂文/">杂文</a></li></ul>
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/css/">css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/javaScript/">javaScript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/">web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/感悟/">感悟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂文/">杂文</a></li></ul>
                     </div>
                 </section>
                 
@@ -295,6 +276,10 @@ auto：无特殊对齐方式。left：内容左对齐。center：内容居中对
       
       <div class="article-info article-info-post">
         
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/术业专攻/">术业专攻</a>
+    </div>
+
 
         
     <div class="article-tag tagcloud">
@@ -309,7 +294,11 @@ auto：无特殊对齐方式。left：内容左对齐。center：内容居中对
       
           
         <p>最近再做一行文字时，两端对齐，遇到了一些问题，总结一下实现方法！</p>
-<h3 id="方法1、text-align-last"><a href="#方法1、text-align-last" class="headerlink" title="方法1、text-align-last"></a>方法1、text-align-last</h3><blockquote>
+<ul>
+<li><a id="more"></a>
+</li>
+</ul>
+<h2 id="方法1、text-align-last"><a href="#方法1、text-align-last" class="headerlink" title="方法1、text-align-last"></a>方法1、text-align-last</h2><blockquote>
 <p>1、 如果是中文，必须加空格，不然在有些浏览器上不会两端对齐（<em>如魅族手机</em>）<br>2、css3新属性，但是兼容性很差！safai不支持</p>
 </blockquote>
 <p><img src="http://upload-images.jianshu.io/upload_images/2097799-ccf604a3d41cc0e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="text-align-last支持效果"></p>
@@ -317,7 +306,7 @@ auto：无特殊对齐方式。left：内容左对齐。center：内容居中对
 <blockquote>
 <p>auto：无特殊对齐方式。<br>left：内容左对齐。<br>center：内容居中对齐。<br>right：内容右对齐。<br>justify：内容两端对齐。<br>start：内容对齐开始边界。<br>end：内容对齐结束边界。</p>
 </blockquote>
-<h3 id="方法2、伪类"><a href="#方法2、伪类" class="headerlink" title="方法2、伪类"></a>方法2、伪类</h3><blockquote>
+<h2 id="方法2、伪类"><a href="#方法2、伪类" class="headerlink" title="方法2、伪类"></a>方法2、伪类</h2><blockquote>
 <p>1、 如果是中文，必须加空格，不然在有些浏览器上不会两端对齐（<em>如魅族手机</em>）<br>2、<strong>white-space</strong> 不能为 <em>nowrap</em></p>
 </blockquote>
 <p><strong>用法：</strong> 在当前元素添加after伪类，给其设置display:inilne-block等（<em>详情见下方代码</em>）</p>
@@ -354,7 +343,7 @@ css -&gt;
         <p><span>本文标题:</span><a href="/2016/05/19/第一文字时两端对齐/">第一文字时两端对齐</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">晴风无眠</a></p>
         <p><span>发布时间:</span>2016-05-19, 15:33:01</p>
-        <p><span>最后更新:</span>2016-05-20, 23:13:11</p>
+        <p><span>最后更新:</span>2016-05-21, 16:56:33</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/05/19/第一文字时两端对齐/" title="第一文字时两端对齐">http://yoursite.com/2016/05/19/第一文字时两端对齐/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/05/19/第一文字时两端对齐/　　作者: 晴风无眠" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -389,7 +378,7 @@ css -&gt;
 
     <div id="toc" class="toc-article">
     <strong class="toc-title">文章目录</strong>
-    <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#方法1、text-align-last"><span class="toc-number">1.</span> <span class="toc-text">方法1、text-align-last</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#方法2、伪类"><span class="toc-number">2.</span> <span class="toc-text">方法2、伪类</span></a></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#方法1、text-align-last"><span class="toc-number">1.</span> <span class="toc-text">方法1、text-align-last</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#方法2、伪类"><span class="toc-number">2.</span> <span class="toc-text">方法2、伪类</span></a></li></ol>
 </div>
 <style>
     .left-col .switch-btn {
@@ -458,6 +447,12 @@ css -&gt;
 
 
 
+
+    
+        <section class="youyan" id="comments">
+  <div id="uyan_frame"></div>
+  <script src="http://v2.uyan.cc/code/uyan.js?uid=2100917"></script>
+</section>
 
     
 
@@ -551,6 +546,8 @@ css -&gt;
     <a href="#comments" title="查看评论"><i class="fa fa-comments-o"></i></a>
     <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
 </div>
+
+    <script src="//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>

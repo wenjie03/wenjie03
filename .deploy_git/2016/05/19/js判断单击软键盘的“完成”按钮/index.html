@@ -5,28 +5,16 @@
   
   <title>js判断单击软键盘的“完成”按钮 | 晴风无眠</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="最近公司有一个项目，要在页面中有一个搜索框，输入内容，单击软键盘上的搜索或完成来运行函数; 开始在想，有没有一个这样的事件去监听，去网上也找不到相关的资料！唉！！但皇天不负有心人，终于发现了解决的方法
-
-方法一、模拟表单提交，在input外面包上一个form标签，当用户在表单中单击搜索或完成会触发表单的submit事件，所以在submit事件中去处理搜索的逻辑，并阻止表单的提交
-代码
-html&amp;">
+  <meta name="description" content="最近公司有一个项目，要在页面中有一个搜索框，输入内容，单击软键盘上的搜索或完成来运行函数; 开始在想，有没有一个这样的事件去监听，去网上也找不到相关的资料！唉！！但皇天不负有心人，终于发现了解决的方法">
 <meta property="og:type" content="article">
 <meta property="og:title" content="js判断单击软键盘的“完成”按钮">
 <meta property="og:url" content="http://yoursite.com/2016/05/19/js判断单击软键盘的“完成”按钮/index.html">
 <meta property="og:site_name" content="晴风无眠">
-<meta property="og:description" content="最近公司有一个项目，要在页面中有一个搜索框，输入内容，单击软键盘上的搜索或完成来运行函数; 开始在想，有没有一个这样的事件去监听，去网上也找不到相关的资料！唉！！但皇天不负有心人，终于发现了解决的方法
-
-方法一、模拟表单提交，在input外面包上一个form标签，当用户在表单中单击搜索或完成会触发表单的submit事件，所以在submit事件中去处理搜索的逻辑，并阻止表单的提交
-代码
-html&amp;">
-<meta property="og:updated_time" content="2016-05-20T15:16:53.710Z">
+<meta property="og:description" content="最近公司有一个项目，要在页面中有一个搜索框，输入内容，单击软键盘上的搜索或完成来运行函数; 开始在想，有没有一个这样的事件去监听，去网上也找不到相关的资料！唉！！但皇天不负有心人，终于发现了解决的方法">
+<meta property="og:updated_time" content="2016-05-21T08:56:29.748Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="js判断单击软键盘的“完成”按钮">
-<meta name="twitter:description" content="最近公司有一个项目，要在页面中有一个搜索框，输入内容，单击软键盘上的搜索或完成来运行函数; 开始在想，有没有一个这样的事件去监听，去网上也找不到相关的资料！唉！！但皇天不负有心人，终于发现了解决的方法
-
-方法一、模拟表单提交，在input外面包上一个form标签，当用户在表单中单击搜索或完成会触发表单的submit事件，所以在submit事件中去处理搜索的逻辑，并阻止表单的提交
-代码
-html&amp;">
+<meta name="twitter:description" content="最近公司有一个项目，要在页面中有一个搜索框，输入内容，单击软键盘上的搜索或完成来运行函数; 开始在想，有没有一个这样的事件去监听，去网上也找不到相关的资料！唉！！但皇天不负有心人，终于发现了解决的方法">
   
     <link rel="alternative" href="/atom.xml" title="晴风无眠" type="application/atom+xml">
   
@@ -36,6 +24,8 @@ html&amp;">
   
       <link href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css" rel="stylesheet">
   
+  
+      <link href="//cdn.bootcss.com/jqueryui/1.10.4/css/jquery-ui.min.css" rel="stylesheet">
   
   
       <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
@@ -180,7 +170,7 @@ html&amp;">
                 
                 <section class="switch-part switch-part2">
                     <div class="widget tagcloud" id="js-tagcloud">
-                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/css/">css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/javascript/">javascript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/">web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/感悟/">感悟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂文/">杂文</a></li></ul>
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/css/">css</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/javaScript/">javaScript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/web/">web</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/感悟/">感悟</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/杂文/">杂文</a></li></ul>
                     </div>
                 </section>
                 
@@ -284,10 +274,14 @@ html&amp;">
       
       <div class="article-info article-info-post">
         
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/术业专攻/">术业专攻</a>
+    </div>
+
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javascript/">javascript</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/javaScript/">javaScript</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -300,6 +294,10 @@ html&amp;">
         <blockquote>
 <p>最近公司有一个项目，要在页面中有一个搜索框，输入内容，单击软键盘上的搜索或完成来运行函数; 开始在想，有没有一个这样的事件去监听，去网上也找不到相关的资料！唉！！<br>但皇天不负有心人，终于发现了解决的方法</p>
 </blockquote>
+<ul>
+<li><a id="more"></a>
+</li>
+</ul>
 <h6 id="方法一、模拟表单提交，"><a href="#方法一、模拟表单提交，" class="headerlink" title="方法一、模拟表单提交，"></a>方法一、模拟表单提交，</h6><p>在input外面包上一个form标签，当用户在表单中单击搜索或完成会触发表单的submit事件，所以在submit事件中去处理搜索的逻辑，并阻止表单的提交</p>
 <p><strong>代码</strong></p>
 <p><em>html</em><br><code>&lt;form action=&quot;&quot; id=&quot;form&quot;&gt;
@@ -336,7 +334,7 @@ html&amp;">
         <p><span>本文标题:</span><a href="/2016/05/19/js判断单击软键盘的“完成”按钮/">js判断单击软键盘的“完成”按钮</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">晴风无眠</a></p>
         <p><span>发布时间:</span>2016-05-19, 19:14:18</p>
-        <p><span>最后更新:</span>2016-05-20, 23:16:53</p>
+        <p><span>最后更新:</span>2016-05-21, 16:56:29</p>
         <p>
             <span>原始链接:</span><a class="post-url" href="/2016/05/19/js判断单击软键盘的“完成”按钮/" title="js判断单击软键盘的“完成”按钮">http://yoursite.com/2016/05/19/js判断单击软键盘的“完成”按钮/</a>
             <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2016/05/19/js判断单击软键盘的“完成”按钮/　　作者: 晴风无眠" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
@@ -442,6 +440,12 @@ html&amp;">
 
 
     
+        <section class="youyan" id="comments">
+  <div id="uyan_frame"></div>
+  <script src="http://v2.uyan.cc/code/uyan.js?uid=2100917"></script>
+</section>
+
+    
 
 
 
@@ -533,6 +537,8 @@ html&amp;">
     <a href="#comments" title="查看评论"><i class="fa fa-comments-o"></i></a>
     <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
 </div>
+
+    <script src="//cdn.bootcss.com/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
