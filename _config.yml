@@ -4,7 +4,7 @@
 
 # Site
 title: 晴风无眠
-subtitle: 一个爱学习、爱运行的男孩子
+subtitle: 一个爱学习、爱运动的男孩子
 description:
 author: 晴风无眠
 language:
@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://w3cli.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
