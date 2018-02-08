@@ -2,22 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     
+    
+    
   <url>
-    <loc>http://w3cli.com/2016/05/22/javascript%E9%97%AD%E5%8C%85/</loc>
-    <lastmod>2016-05-22T07:23:01.576Z</lastmod>
+    <loc>http://qingfengwumian.com/2016/05/19/%E6%88%91%E5%9C%A8%20web%20%E9%A2%86%E5%9F%9F%E5%B7%A5%E4%BD%9C%E8%B6%8A%E9%95%BF%E6%97%B6%E9%97%B4/</loc>
+    <lastmod>2018-02-08T03:01:25.281Z</lastmod>
     <data>
         <display>
-        <title>javascript闭包</title>
-        <pubTime>2016-05-22T07:16:17.000Z</pubTime>
+        <title>我在 web 领域工作越长时间</title>
+        <pubTime>2016-05-19T07:34:01.000Z</pubTime>
         
-        <tag>javascript </tag>
+        <tag>感悟 </tag>
          
-        <tag>《你不知道的JavaScript》 </tag>
+        <tag>web </tag>
          
          
            
              
-              <breadCrumb title="术业专攻" url="http://w3cli.com/categories/%E6%9C%AF%E4%B8%9A%E4%B8%93%E6%94%BB/"/>
+              <breadCrumb title="个人感悟" url="http://qingfengwumian.com/categories/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%82%9F/"/>
           
         </display>
     </data>
@@ -25,8 +27,8 @@
 
     
   <url>
-    <loc>http://w3cli.com/2016/05/22/%E5%8D%9A%E5%AE%A2%E6%88%90%E7%AB%8B%E8%BF%87%E7%A8%8B/</loc>
-    <lastmod>2016-05-22T06:04:28.816Z</lastmod>
+    <loc>http://qingfengwumian.com/2016/05/22/%E5%8D%9A%E5%AE%A2%E6%88%90%E7%AB%8B%E8%BF%87%E7%A8%8B/</loc>
+    <lastmod>2018-02-08T03:01:25.280Z</lastmod>
     <data>
         <display>
         <title>博客成立过程</title>
@@ -41,7 +43,7 @@
          
            
              
-              <breadCrumb title="个人感悟" url="http://w3cli.com/categories/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%82%9F/"/>
+              <breadCrumb title="个人感悟" url="http://qingfengwumian.com/categories/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%82%9F/"/>
           
         </display>
     </data>
@@ -49,8 +51,8 @@
 
     
   <url>
-    <loc>http://w3cli.com/2016/05/19/%E5%8F%AA%E6%9C%89%E4%B8%80%E8%A1%8C%E6%96%87%E5%AD%97%E6%97%B6%E4%B8%A4%E7%AB%AF%E5%AF%B9%E9%BD%90/</loc>
-    <lastmod>2016-05-22T04:28:22.729Z</lastmod>
+    <loc>http://qingfengwumian.com/2016/05/19/%E5%8F%AA%E6%9C%89%E4%B8%80%E8%A1%8C%E6%96%87%E5%AD%97%E6%97%B6%E4%B8%A4%E7%AB%AF%E5%AF%B9%E9%BD%90/</loc>
+    <lastmod>2018-02-08T03:01:25.280Z</lastmod>
     <data>
         <display>
         <title>只有一行文字时两端对齐</title>
@@ -61,31 +63,7 @@
          
            
              
-              <breadCrumb title="术业专攻" url="http://w3cli.com/categories/%E6%9C%AF%E4%B8%9A%E4%B8%93%E6%94%BB/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-    
-    
-  <url>
-    <loc>http://w3cli.com/2016/05/19/%E6%88%91%E5%9C%A8%20web%20%E9%A2%86%E5%9F%9F%E5%B7%A5%E4%BD%9C%E8%B6%8A%E9%95%BF%E6%97%B6%E9%97%B4/</loc>
-    <lastmod>2016-05-21T08:59:45.535Z</lastmod>
-    <data>
-        <display>
-        <title>我在 web 领域工作越长时间</title>
-        <pubTime>2016-05-19T07:34:01.000Z</pubTime>
-        
-        <tag>感悟 </tag>
-         
-        <tag>web </tag>
-         
-         
-           
-             
-              <breadCrumb title="个人感悟" url="http://w3cli.com/categories/%E4%B8%AA%E4%BA%BA%E6%84%9F%E6%82%9F/"/>
+              <breadCrumb title="术业专攻" url="http://qingfengwumian.com/categories/%E6%9C%AF%E4%B8%9A%E4%B8%93%E6%94%BB/"/>
           
         </display>
     </data>
@@ -93,8 +71,8 @@
 
     
   <url>
-    <loc>http://w3cli.com/2016/05/18/markdown%20%E6%A0%BC%E5%BC%8F%E8%BE%93%E5%87%BA/</loc>
-    <lastmod>2016-05-21T08:58:39.403Z</lastmod>
+    <loc>http://qingfengwumian.com/2016/05/18/markdown%20%E6%A0%BC%E5%BC%8F%E8%BE%93%E5%87%BA/</loc>
+    <lastmod>2018-02-08T03:01:25.279Z</lastmod>
     <data>
         <display>
         <title>markdown格式输出</title>
@@ -105,7 +83,7 @@
          
            
              
-              <breadCrumb title="其它" url="http://w3cli.com/categories/%E5%85%B6%E5%AE%83/"/>
+              <breadCrumb title="其它" url="http://qingfengwumian.com/categories/%E5%85%B6%E5%AE%83/"/>
           
         </display>
     </data>
@@ -113,8 +91,8 @@
 
     
   <url>
-    <loc>http://w3cli.com/2016/05/19/js%E5%88%A4%E6%96%AD%E5%8D%95%E5%87%BB%E8%BD%AF%E9%94%AE%E7%9B%98%E7%9A%84%E2%80%9C%E5%AE%8C%E6%88%90%E2%80%9D%E6%8C%89%E9%92%AE/</loc>
-    <lastmod>2016-05-21T08:56:29.748Z</lastmod>
+    <loc>http://qingfengwumian.com/2016/05/19/js%E5%88%A4%E6%96%AD%E5%8D%95%E5%87%BB%E8%BD%AF%E9%94%AE%E7%9B%98%E7%9A%84%E2%80%9C%E5%AE%8C%E6%88%90%E2%80%9D%E6%8C%89%E9%92%AE/</loc>
+    <lastmod>2018-02-08T03:01:25.279Z</lastmod>
     <data>
         <display>
         <title>js判断单击软键盘的“完成”按钮</title>
@@ -125,7 +103,29 @@
          
            
              
-              <breadCrumb title="术业专攻" url="http://w3cli.com/categories/%E6%9C%AF%E4%B8%9A%E4%B8%93%E6%94%BB/"/>
+              <breadCrumb title="术业专攻" url="http://qingfengwumian.com/categories/%E6%9C%AF%E4%B8%9A%E4%B8%93%E6%94%BB/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://qingfengwumian.com/2016/05/22/javascript%E9%97%AD%E5%8C%85/</loc>
+    <lastmod>2018-02-08T03:01:25.278Z</lastmod>
+    <data>
+        <display>
+        <title>javascript闭包</title>
+        <pubTime>2016-05-22T07:16:17.000Z</pubTime>
+        
+        <tag>javascript </tag>
+         
+        <tag>《你不知道的JavaScript》 </tag>
+         
+         
+           
+             
+              <breadCrumb title="术业专攻" url="http://qingfengwumian.com/categories/%E6%9C%AF%E4%B8%9A%E4%B8%93%E6%94%BB/"/>
           
         </display>
     </data>
